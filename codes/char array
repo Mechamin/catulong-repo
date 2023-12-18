@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+
+char name1 [5];
+char name2 [5];
+char name3 [5];
+printf("Enter name: %s %s %s", name1, name2, name3);
+scanf("%s %s %s", &name1, &name2, &name3);
+printf("Name: %s %s %s", name1, name2,name3);
+return 0;
+}
